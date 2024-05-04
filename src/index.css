@@ -1,0 +1,64 @@
+.prod1 {
+  text-align: start;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%,   0.1);
+  padding: 20px;
+  margin: 50px;
+  max-width: 250px;
+  display: inline-block;
+  
+}
+.prod1 img {
+  width: 200px;
+  height: 250px;
+}
+header {
+  background-color: transparent; /* Background color of the header */
+ 
+  width: 100%; /* Ensure the header spans the entire width of the page */
+  position: fixed; /* Position the header at the top of the viewport */
+  top: 0; /* Align the header to the top */
+  left: 0; /* Align the header to the left */
+  border-bottom: 1px solid #6d6b6b; /* Add a border to the bottom of the header */
+  z-index: 999; /* Ensure the header is on top of other elements */
+}
+
+nav {
+  width: 100%; /* Ensure the navigation bar spans the entire width of the header */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points from the list */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+  display: inline; /* Display list items horizontally */
+  margin-right: 20px; /* Add spacing between list items */
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove margin from the last list item */
+}
+
+nav ul li a {
+  color: #fff; /* Text color of navigation links */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 16px; /* Font size of navigation links */
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+.product {
+  float: left;
+  margin-top: 150px;
+}
+header p{
+  text-align: start;
+  margin-inline-start: 150px;
+  font-style: bold;
+  font-size: 20px;
+}
